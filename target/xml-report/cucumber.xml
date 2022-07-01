@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="4.457">
+    <testcase classname="US1001 kullanıcı doğru bilgilerle database e bağlanabilmeli" name="TC01 kullanıcı database deki bilgileri okur" time="4.1">
+        <system-out>
+            <![CDATA[Given kullanıcı HMC veritabanına bağlanır...................................passed
+And kullanıcı "tHOTELROOM" tablosundaki "Price" verilerini bağlanır.........passed
+And kullanıcı "Price" sütünundaki verileri okur.............................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
