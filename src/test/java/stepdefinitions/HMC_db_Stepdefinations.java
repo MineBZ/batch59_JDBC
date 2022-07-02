@@ -11,9 +11,9 @@ public class HMC_db_Stepdefinations {
     String username="techproed";
     String password="P2s@rt65";
 
-    Connection connection;
-    Statement statement;
-    ResultSet resultSet;
+    Connection connection;//Database e bağlanmamızı sağlar
+    Statement statement;//Qery calıştırmamızı sağlar
+    ResultSet resultSet;//Qery sonucunda dönen sonucu store etmemizi sağlar
 
 
     @Given("kullanıcı HMC veritabanına bağlanır")
